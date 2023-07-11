@@ -1,3 +1,11 @@
 body {
     font-family: 'Mulish', sans-serif;
 }
+header {
+    display: flex;
+    flex-direction: row;
+}
+div {
+    display: flex;
+    flex-direction: column;
+}
