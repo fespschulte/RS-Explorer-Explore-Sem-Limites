@@ -1,9 +1,17 @@
 body {
     font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-header {
+header, main {
     display: flex;
     flex-direction: row;
+}
+.moon {
+    height: 94px;
+    width: 94px;
 }
 div {
     display: flex;
