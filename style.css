@@ -5,9 +5,16 @@ body {
     justify-content: center;
     align-items: center;
 }
-header, main {
+header {
     display: flex;
     flex-direction: row;
+}
+
+main {
+    display: flex;
+    gap: 60px;
+    background-color: #343193;
+    padding: 64px 111px;
 }
 .moon {
     height: 94px;
@@ -16,4 +23,6 @@ header, main {
 div {
     display: flex;
     flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 24px;
 }
