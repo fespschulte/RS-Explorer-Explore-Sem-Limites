@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Mulish', sans-serif;
     display: flex;
@@ -8,6 +9,19 @@ body {
 header {
     display: flex;
     flex-direction: row;
+    margin-top: 312px;
+    margin-right: 109px; 
+}
+h1 {
+    font-size: 58px;
+    color: #B52184;
+    font-weight: 900;
+}
+
+header p {
+    font-size: 32px;
+    color: #312D64;
+    font-weight: 600;
 }
 
 main {
