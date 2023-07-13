@@ -1,6 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
+:root {
+    font-size: 62.5%;
+    --base-font: 'Mulish', sans-serif;
+
+    /* Colors */
+    --white: #ffffff;
+    --light-gray: #f9f4fb;
+    --accent-color: #b52184;
+    --text-base-color: #312d64;
+    --gradient-background: linear-gradient(96.21deg, #343193 0%, #302c63 99.68%);
+}
+  
 body {
-    font-family: 'Mulish', sans-serif;
+    background: var(--light-gray);
+    font-family: var(--base-font);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,34 +29,35 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    margin-top: 312px;
-    margin-right: 109px; 
+    margin-top: 31.2rem;
+    margin-right: 10.9rem; 
 }
+
 h1 {
-    font-size: 58px;
-    color: #B52184;
+    font-size: 5.8rem;
+    color: var(--accent-color);
     font-weight: 900;
 }
 
 header p {
-    font-size: 32px;
-    color: #312D64;
+    font-size: 3.2rem;
+    color: var(--text-base-color);
     font-weight: 600;
 }
 
 main {
     display: flex;
-    gap: 60px;
-    background-color: #343193;
-    padding: 64px 111px;
+    gap: 6.0rem;
+    background-color: var(--gradient-background);
+    padding: 6.4rem 11.1rem;
 }
 .moon {
-    height: 94px;
-    width: 94px;
+    height: 9.4rem;
+    width: 9.4rem;
 }
-div {
+main div {
     display: flex;
     flex-direction: column;
-    background-color: #FFFFFF;
-    border-radius: 24px;
+    background-color: var(--white);
+    border-radius: 2.4rem;
 }
