@@ -33,6 +33,15 @@ header {
     margin-right: 10.9rem; 
 }
 
+.arrow-down {
+    margin-top: 179px;
+    padding: 30px 14px;
+    border-radius: 760px;
+    border: solid 4px;
+    
+    border-color: var(--accent-color);
+}
+
 h1 {
     font-size: 5.8rem;
     color: var(--accent-color);
