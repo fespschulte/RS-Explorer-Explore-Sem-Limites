@@ -26,7 +26,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-header {
+#hero {
     display: flex;
     flex-direction: row;
     margin-top: 31.2rem;
@@ -48,13 +48,13 @@ h1 {
     font-weight: 900;
 }
 
-header p {
+#hero p {
     font-size: 3.2rem;
     color: var(--text-base-color);
     font-weight: 600;
 }
 
-main {
+#cards {
     display: flex;
     gap: 6.0rem;
     background-color: var(--gradient-background);
@@ -64,9 +64,26 @@ main {
     height: 9.4rem;
     width: 9.4rem;
 }
-main div {
+#cards div {
     display: flex;
     flex-direction: column;
     background-color: var(--white);
     border-radius: 2.4rem;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
 }
