@@ -133,3 +133,17 @@ fieldset {
     flex-direction: column;
     gap: 2.4rem;
 }
+
+#contact form button {
+    border-radius: 1.6rem;
+    background: #343193;
+    color: var(--white);
+    margin-top: 2.4rem;
+    width: 15.1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    padding: 1.2rem 1.6rem;
+    cursor: pointer;
+    transition: filter 200ms;
+}
