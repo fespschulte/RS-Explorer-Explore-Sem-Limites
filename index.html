@@ -39,15 +39,24 @@
         <form>
             <h2>Entre em contato</h2>
             <fieldset>
-                <input type="text" placeholder="Seu nome">
-                <input type="email" placeholder="Email">
-                <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem aqui..."></textarea>
+                <div class="input-wrapper">
+                    <input id="name" type="text" placeholder="Seu nome">
+                </div>
+                <div class="input-wrapper">
+                    <input id="email" type="email" placeholder="Email">
+                </div>
+                <div class="input-wrapper">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem aqui..."></textarea>
+                </div>                
             </fieldset>
-            <button>Enviar Mensagem</button>
+            <button class="button" type="submit">Enviar Mensagem</button>
         </form>
         <div class="stars">
             <img src="./Images/stars.svg" alt="">
         </div>
     </section>
+    <footer>
+        <p>&copy; 2023 - Rocketseat Explorer</p>
+    </footer>
 </body>
 </html>
